@@ -1,0 +1,52 @@
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); /* Adjusted for header and footer */
+    padding: 20px 0; /* Added padding */
+}
+
+/* Adjust the padding for smaller screens */
+@media (max-width: 768px) {
+    .social-media-container {
+        padding: 10px 0;
+    }
+}
+
+.portfolio-section {
+    flex: 1; /* Each section takes equal width */
+    margin: 20px;
+}
+
+.latest-post {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#twitter {
+    order: 1; /* Twitter will appear after Instagram */
+}
+
+footer {
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 50px;
+    margin: 0 10px;
+}

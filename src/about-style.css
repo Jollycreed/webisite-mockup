@@ -1,0 +1,81 @@
+/* Reset some default styles for consistency */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Adjust the spacing and styling of the About Me section */
+#about {
+    text-align: left;
+    padding-right: 20px; /* Add padding to separate text from form */
+}
+
+/* Style the About Me text */
+#about p {
+    margin-bottom: 20px; /* Add some space between paragraphs */
+}
+
+/* Move the entire contact form to the right side */
+#contact {
+    display: flex;
+}
+
+/* Center the "Contact Me" text */
+#contact h2 {
+    text-align: center;
+}
+
+/* Adjust the spacing and styling of the form labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form button {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+footer .social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Reduce the size of the footer icons */
+footer img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+/* Add this to your existing CSS */
+
+.btnContact {
+    background-color: black; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect for hover */
+}
+
+/* Change button background color on hover */
+.btnContact:hover {
+    background-color: gray;
+}
